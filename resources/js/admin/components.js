@@ -1,11 +1,7 @@
 import Vue from 'vue';
-import Layout from '../admin/views/Layout';
-import Sidebar from '../admin/views/partials/Siderbar';
-import Header from '../admin/views/partials/Header';
-import Footer from '../admin/views/partials/Footer';
+import Layout from './views/Layout';
+import Dashboard from './views/Dashboard';
 
-Vue.component('app-admin-layout', Layout);
-Vue.component('app-sidebar', Sidebar);
-Vue.component('app-header', Header);
-Vue.component('app-footer', Footer);
+Vue.component('layout', Layout);
+Vue.component('Dashboard', Dashboard);
 

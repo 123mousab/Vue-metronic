@@ -1,4 +1,4 @@
-# Template Metronic Using VUE-JS
+# Metronic Vue-Js
 
 ## Project setup
 

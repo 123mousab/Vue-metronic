@@ -19,15 +19,10 @@ module.exports = {
     ]
   },
   pages: {
-    site: {
-      entry: 'resources/js/site/app.js',
-        template: 'resources/views/site/index.html',
-        filename: 'index.html'
-    },
     admin: {
-        entry: 'resources/js/admin/app.js',
-        template: 'resources/views/admin/index.html',
-        filename: 'admin.html'
-    }
+      entry: 'resources/js/admin/app.js',
+      template: 'resources/views/admin/index.html',
+      filename: 'admin.html',
+    },
   }
-}
+};
